@@ -1,4 +1,4 @@
-<h1 align="center">Excel importation</h1>
+<h1 align="center">JS objects</h1>
 <div align="center">
   <h3>
     <a href="https://ande-glitch.github.io/JSObjects/">
