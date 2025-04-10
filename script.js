@@ -52,7 +52,9 @@ document.writeln("<br/>")
 
 //Oppgave 8
 document.writeln("Oppgave 8" + "<br/>")
-document.writeln("Vi har: " + Object.keys(bilFirma).length + " keys i objektet")
+for (let element in bilFirma) { //for hver element i bilfirma
+    document.writeln(element + "<br/>");
+}
 
 document.writeln("<br/><br/>")
 
@@ -60,9 +62,10 @@ document.writeln("<br/><br/>")
 firmaArray = Object.keys(bilFirma)
 
 document.writeln("Oppgave 9" + "<br/>")
-firmaArray.forEach(key => {
-    document.writeln(`Navn: ${key} / Verdi: ${bilFirma[key]} <br/>`)
-});
+for (let element in bilFirma) { //for hver element i bilfirma
+    document.writeln(element + ": " + bilFirma[element] + "<br/>");
+}
+
 
 document.writeln("<br/><br/>")
 
